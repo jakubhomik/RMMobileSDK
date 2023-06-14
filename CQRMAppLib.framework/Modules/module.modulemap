@@ -1,0 +1,6 @@
+framework module CQRMAppLib {
+  umbrella header "CQRMAppLib.h"
+
+  export *
+  module * { export * }
+}
