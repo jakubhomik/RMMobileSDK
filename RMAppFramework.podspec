@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RMAppFramework"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "As a communication SDK for apps and devices"
 
   # This description is used to generate tags and improve search results.
@@ -24,8 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "锐明手机组SDK"
 
   spec.homepage     = "https://github.com/RMTelephone/RMAppFramework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,7 +88,7 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  spec.vendored_frameworks = 'RMAppFramework/CQRMAppLib.framework'
+  spec.vendored_frameworks = 'CQRMAppLib.framework'
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
