@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RMAppFramework"
-  spec.version      = "1.0.2"
+  spec.version      = "1.1.2"
   spec.summary      = "As a communication SDK for apps and devices"
 
   # This description is used to generate tags and improve search results.
@@ -88,8 +88,8 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  spec.vendored_frameworks = 'CQRMAppLib.framework'
-  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.ios.vendored_frameworks = 'RMMobileSDK.framework'
+  #spec.source_files  = "RMAppFramework/Headers"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
