@@ -1,21 +1,3 @@
-PODS:
-  - RMAppFramework (1.1.2)
-
-DEPENDENCIES:
-  - RMAppFramework (from `https://github.com/RMTelephone/RMAppFramework.git`)
-
-EXTERNAL SOURCES:
-  RMAppFramework:
-    :git: https://github.com/RMTelephone/RMAppFramework.git
-
-CHECKOUT OPTIONS:
-  RMAppFramework:
-    :commit: bd8ead4e9c7aabb30087436ab8b444e36594dcf3
-    :git: https://github.com/RMTelephone/RMAppFramework.git
-
-SPEC CHECKSUMS:
-  RMAppFramework: 5a0abba11682af611f9aebc2259a971371128334
-
-PODFILE CHECKSUM: 0f48eb8342b3ee049490c45ebdf9bb5b66aade90
+PODFILE CHECKSUM: cfb7cc93c920abc980adaf88db16f76c4d416287
 
 COCOAPODS: 1.12.1
