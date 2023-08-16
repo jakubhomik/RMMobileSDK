@@ -213,9 +213,9 @@ channelarr: <Nstring*> 频道
 /**
  获取设备通用状态接口，可自己定义获取哪些部分参数
 
- @param statusBit bit0-通信模块 bit1-wifi模块  bit2-gps  bit3-蓝牙  bit4-通道信息 bit5-存储设备
+ @param statusBit bit0-通信模块 bit1-wifi模块  bit2-gps  bit3-蓝牙  bit4-通道信息 bit5-存储设备 
                   bit6-车钥匙   bit7-IO状态    bit8-服务器状态
- @return
+ @return 
  */
 -(ERROR_CODE)getDeviceGenralStatus:(int)statusBit Return:(DataBlock)callback;
 - (NSDictionary *)getDeviceGenralStatus:(int)statusBit;

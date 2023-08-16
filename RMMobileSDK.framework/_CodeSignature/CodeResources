@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/FXNetDevice.h</key>
 		<data>
-		+8aKBTRmvC5U/nCLzgkkWEczaw4=
+		HuPchj8Zuqy9TO//DXNiyx5IZ+k=
 		</data>
 		<key>Headers/FXNetRemotePlayback.h</key>
 		<data>
@@ -66,11 +66,7 @@
 		</data>
 		<key>Headers/RMMobileSDK.h</key>
 		<data>
-		Haxqye3Qs4mF7nsnJB5xEeO20DA=
-		</data>
-		<key>Headers/UserModel.h</key>
-		<data>
-		UhWOOpvTwGKUL598TTx8C/BGUFM=
+		s9DaPvmbZvMkzbPDVSIiVsc0wTY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -146,11 +142,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+8aKBTRmvC5U/nCLzgkkWEczaw4=
+			HuPchj8Zuqy9TO//DXNiyx5IZ+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			qXpezAtbl2imhmWG5hAXiwQXbXb6L8/8bFtKl60bkfw=
+			PVfKPOLsyPU8f1hlDkdfGMl+NzF038JVL0Bey093wUE=
 			</data>
 		</dict>
 		<key>Headers/FXNetRemotePlayback.h</key>
@@ -256,22 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Haxqye3Qs4mF7nsnJB5xEeO20DA=
+			s9DaPvmbZvMkzbPDVSIiVsc0wTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			doOHJN36zafICHip4Njqhw9h6h4mXAfBKV1AoE3jvQ8=
-			</data>
-		</dict>
-		<key>Headers/UserModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UhWOOpvTwGKUL598TTx8C/BGUFM=
-			</data>
-			<key>hash2</key>
-			<data>
-			q9rIWyPfd0Vk5mhPaxpZn+ESQI2eOQYAV73vyptfJ2g=
+			zrvi/OjV0tOHFoaLM3K+IH+IgL2LYh7ni6h+zbzmh8E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -9,6 +9,7 @@
 #import "RMViewController.h"
 #import <RMMobileSDK/RMMobileSDK.h>
 #import "RMWifiTool.h"
+
 #define dispatch_global_queue_priority_default dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
 @interface RMViewController ()
@@ -25,6 +26,7 @@
     [super viewDidLoad];
     self.deviceIP = [RMWifiTool getRouterIP];
     self.port = 9006;
+    
     NSLog(@"ip:%@", self.deviceIP);
 	// Do any additional setup after loading the view, typically from a nib.
 }
