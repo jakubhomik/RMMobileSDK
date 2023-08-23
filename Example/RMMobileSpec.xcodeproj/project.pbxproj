@@ -55,23 +55,6 @@
 		2B42D7082A53C7E80063974B /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		2B42D7092A53C7E80063974B /* RMMobileSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = RMMobileSDK; sourceTree = "<group>"; };
 		2B42D70A2A53C7E90063974B /* getgateway.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getgateway.c; sourceTree = "<group>"; };
-		2B42D70C2A53C7E90063974B /* NetServiceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetServiceInfo.h; sourceTree = "<group>"; };
-		2B42D70D2A53C7E90063974B /* FXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXManager.h; sourceTree = "<group>"; };
-		2B42D70E2A53C7E90063974B /* FXRecordFilelistDateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXRecordFilelistDateInfo.h; sourceTree = "<group>"; };
-		2B42D70F2A53C7E90063974B /* FXNetStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXNetStream.h; sourceTree = "<group>"; };
-		2B42D7102A53C7E90063974B /* FXFileHeaderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXFileHeaderInfo.h; sourceTree = "<group>"; };
-		2B42D7112A53C7E90063974B /* FXNetDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXNetDevice.h; sourceTree = "<group>"; };
-		2B42D7122A53C7E90063974B /* FXNetRemotePlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXNetRemotePlayback.h; sourceTree = "<group>"; };
-		2B42D7132A53C7E90063974B /* FXRecordDateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXRecordDateInfo.h; sourceTree = "<group>"; };
-		2B42D7142A53C7E90063974B /* RMMobileSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMobileSDK.h; sourceTree = "<group>"; };
-		2B42D7152A53C7E90063974B /* FXNetVideoPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXNetVideoPlayback.h; sourceTree = "<group>"; };
-		2B42D7162A53C7E90063974B /* FXNetServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXNetServer.h; sourceTree = "<group>"; };
-		2B42D7172A53C7E90063974B /* NetDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetDeviceInfo.h; sourceTree = "<group>"; };
-		2B42D7182A53C7E90063974B /* FXLocalPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXLocalPlayback.h; sourceTree = "<group>"; };
-		2B42D7192A53C7E90063974B /* FXAudioSampling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXAudioSampling.h; sourceTree = "<group>"; };
-		2B42D71A2A53C7E90063974B /* FXDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXDefine.h; sourceTree = "<group>"; };
-		2B42D71B2A53C7E90063974B /* FXNetSearchFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXNetSearchFile.h; sourceTree = "<group>"; };
-		2B42D71C2A53C7E90063974B /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		2B42D71D2A53C7EA0063974B /* RMMobileSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RMMobileSDK.xcframework; sourceTree = "<group>"; };
 		2B42D71E2A53C7EA0063974B /* getgateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getgateway.h; sourceTree = "<group>"; };
 		3100763856755195B9ACDFF6 /* Pods_RMMobileSpec_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMMobileSpec_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +80,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96CA9FF48433E42B7A73D9EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B6084290F1D6D044A51186A7 /* RMMobileSpec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMMobileSpec.podspec; path = ../RMMobileSpec.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8058C33ED9654A6CA7E2D8F /* Pods_RMMobileSpec_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMMobileSpec_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44867EBAE6EC0B07F6EF320 /* Pods-RMMobileSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMMobileSpec_Example.debug.xcconfig"; path = "Target Support Files/Pods-RMMobileSpec_Example/Pods-RMMobileSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,37 +140,11 @@
 			children = (
 				2B42D70A2A53C7E90063974B /* getgateway.c */,
 				2B42D71E2A53C7EA0063974B /* getgateway.h */,
-				2B42D70B2A53C7E90063974B /* Header */,
 				2B42D7092A53C7E80063974B /* RMMobileSDK */,
 				2B42D71D2A53C7EA0063974B /* RMMobileSDK.xcframework */,
 				2B42D7082A53C7E80063974B /* route.h */,
 			);
 			path = SDK;
-			sourceTree = "<group>";
-		};
-		2B42D70B2A53C7E90063974B /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				2B42D70C2A53C7E90063974B /* NetServiceInfo.h */,
-				2B42D70D2A53C7E90063974B /* FXManager.h */,
-				2B42D70E2A53C7E90063974B /* FXRecordFilelistDateInfo.h */,
-				2B42D70F2A53C7E90063974B /* FXNetStream.h */,
-				2B42D7102A53C7E90063974B /* FXFileHeaderInfo.h */,
-				2B42D7112A53C7E90063974B /* FXNetDevice.h */,
-				2B42D7122A53C7E90063974B /* FXNetRemotePlayback.h */,
-				2B42D7132A53C7E90063974B /* FXRecordDateInfo.h */,
-				2B42D7142A53C7E90063974B /* RMMobileSDK.h */,
-				2B42D7152A53C7E90063974B /* FXNetVideoPlayback.h */,
-				2B42D7162A53C7E90063974B /* FXNetServer.h */,
-				2B42D7172A53C7E90063974B /* NetDeviceInfo.h */,
-				2B42D7182A53C7E90063974B /* FXLocalPlayback.h */,
-				2B42D7192A53C7E90063974B /* FXAudioSampling.h */,
-				2B42D71A2A53C7E90063974B /* FXDefine.h */,
-				2B42D71B2A53C7E90063974B /* FXNetSearchFile.h */,
-				2B42D71C2A53C7E90063974B /* UserModel.h */,
-			);
-			name = Header;
-			path = ../../../../../RMMobileSDK/Header;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -278,7 +234,6 @@
 			isa = PBXGroup;
 			children = (
 				B6084290F1D6D044A51186A7 /* RMMobileSpec.podspec */,
-				96CA9FF48433E42B7A73D9EC /* README.md */,
 				07E061722398419AD344CCA5 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
