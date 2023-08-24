@@ -10,9 +10,6 @@
 		203F3E4F29EFAFCF00DDF243 /* RMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 203F3E4D29EFAFCF00DDF243 /* RMDevice.m */; };
 		20789BBC29EFC5DD0033CD75 /* getgateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 20789BBB29EFC5DC0033CD75 /* getgateway.c */; };
 		207A074B29EFBEA200B8DF59 /* RMWifiTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 207A074929EFBEA200B8DF59 /* RMWifiTool.m */; };
-		2B42D71F2A53C7EA0063974B /* RMMobileSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B42D7092A53C7E80063974B /* RMMobileSDK */; };
-		2B42D7202A53C7EA0063974B /* getgateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B42D70A2A53C7E90063974B /* getgateway.c */; };
-		2B42D7212A53C7EA0063974B /* RMMobileSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B42D71D2A53C7EA0063974B /* RMMobileSDK.xcframework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -52,11 +49,6 @@
 		20789BBD29EFC6110033CD75 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		207A074929EFBEA200B8DF59 /* RMWifiTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMWifiTool.m; sourceTree = "<group>"; };
 		207A074A29EFBEA200B8DF59 /* RMWifiTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMWifiTool.h; sourceTree = "<group>"; };
-		2B42D7082A53C7E80063974B /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
-		2B42D7092A53C7E80063974B /* RMMobileSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = RMMobileSDK; sourceTree = "<group>"; };
-		2B42D70A2A53C7E90063974B /* getgateway.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getgateway.c; sourceTree = "<group>"; };
-		2B42D71D2A53C7EA0063974B /* RMMobileSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RMMobileSDK.xcframework; sourceTree = "<group>"; };
-		2B42D71E2A53C7EA0063974B /* getgateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getgateway.h; sourceTree = "<group>"; };
 		3100763856755195B9ACDFF6 /* Pods_RMMobileSpec_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMMobileSpec_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D95A25A11257D9946069FFA /* Pods-RMMobileSpec_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMMobileSpec_Tests.release.xcconfig"; path = "Target Support Files/Pods-RMMobileSpec_Tests/Pods-RMMobileSpec_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RMMobileSpec_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMMobileSpec_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +72,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96CA9FF48433E42B7A73D9EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B6084290F1D6D044A51186A7 /* RMMobileSpec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMMobileSpec.podspec; path = ../RMMobileSpec.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8058C33ED9654A6CA7E2D8F /* Pods_RMMobileSpec_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMMobileSpec_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44867EBAE6EC0B07F6EF320 /* Pods-RMMobileSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMMobileSpec_Example.debug.xcconfig"; path = "Target Support Files/Pods-RMMobileSpec_Example/Pods-RMMobileSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,9 +87,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2B42D71F2A53C7EA0063974B /* RMMobileSDK in Frameworks */,
 				7043C7773C9B31AB479C04CD /* Pods_RMMobileSpec_Example.framework in Frameworks */,
-				2B42D7212A53C7EA0063974B /* RMMobileSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,18 +124,6 @@
 				207A074929EFBEA200B8DF59 /* RMWifiTool.m */,
 			);
 			path = Wifi;
-			sourceTree = "<group>";
-		};
-		2B42D7072A53C7DC0063974B /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				2B42D70A2A53C7E90063974B /* getgateway.c */,
-				2B42D71E2A53C7EA0063974B /* getgateway.h */,
-				2B42D7092A53C7E80063974B /* RMMobileSDK */,
-				2B42D71D2A53C7EA0063974B /* RMMobileSDK.xcframework */,
-				2B42D7082A53C7E80063974B /* route.h */,
-			);
-			path = SDK;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -184,7 +163,6 @@
 		6003F593195388D20070C39A /* Example for RMMobileSpec */ = {
 			isa = PBXGroup;
 			children = (
-				2B42D7072A53C7DC0063974B /* SDK */,
 				207A074829EFBEA200B8DF59 /* Wifi */,
 				203F3E4C29EFAFCF00DDF243 /* Device */,
 				6003F59C195388D20070C39A /* RMAppDelegate.h */,
@@ -234,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				B6084290F1D6D044A51186A7 /* RMMobileSpec.podspec */,
+				96CA9FF48433E42B7A73D9EC /* README.md */,
 				07E061722398419AD344CCA5 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -261,6 +240,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				FFADB7B56D96E9DBB2741840 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -395,6 +375,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FFADB7B56D96E9DBB2741840 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RMMobileSpec_Example/Pods-RMMobileSpec_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RMMobileSpec_Example/Pods-RMMobileSpec_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMMobileSpec_Example/Pods-RMMobileSpec_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -406,7 +403,6 @@
 				6003F59E195388D20070C39A /* RMAppDelegate.m in Sources */,
 				207A074B29EFBEA200B8DF59 /* RMWifiTool.m in Sources */,
 				6003F5A7195388D20070C39A /* RMViewController.m in Sources */,
-				2B42D7202A53C7EA0063974B /* getgateway.c in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				20789BBC29EFC5DD0033CD75 /* getgateway.c in Sources */,
 			);
@@ -570,12 +566,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMMobileSpec/RMMobileSpec-Prefix.pch";
 				INFOPLIST_FILE = "RMMobileSpec/RMMobileSpec-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RMMobileSpec/RMMobileSDK",
-					"$(PROJECT_DIR)/RMMobileSpec/SDK",
-				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -593,12 +583,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMMobileSpec/RMMobileSpec-Prefix.pch";
 				INFOPLIST_FILE = "RMMobileSpec/RMMobileSpec-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RMMobileSpec/RMMobileSDK",
-					"$(PROJECT_DIR)/RMMobileSpec/SDK",
-				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

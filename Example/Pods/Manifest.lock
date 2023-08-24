@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: cfb7cc93c920abc980adaf88db16f76c4d416287
+PODS:
+  - RMMobileSpec (1.2.0)
+
+DEPENDENCIES:
+  - RMMobileSpec (from `../`)
+
+EXTERNAL SOURCES:
+  RMMobileSpec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RMMobileSpec: 61b0a4fe49786fa0e880b4707a0643105502cfaf
+
+PODFILE CHECKSUM: ac5804f7ca8a38a09fefee0ea02a3804d3dc64a1
 
 COCOAPODS: 1.12.1
