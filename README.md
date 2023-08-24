@@ -1,9 +1,6 @@
 # RMMobileSpec
 
-[![CI Status](https://img.shields.io/travis/16422230/RMMobileSpec.svg?style=flat)](https://travis-ci.org/16422230/RMMobileSpec)
-[![Version](https://img.shields.io/cocoapods/v/RMMobileSpec.svg?style=flat)](https://cocoapods.org/pods/RMMobileSpec)
-[![License](https://img.shields.io/cocoapods/l/RMMobileSpec.svg?style=flat)](https://cocoapods.org/pods/RMMobileSpec)
-[![Platform](https://img.shields.io/cocoapods/p/RMMobileSpec.svg?style=flat)](https://cocoapods.org/pods/RMMobileSpec)
+
 
 ## Example
 
@@ -20,9 +17,10 @@ it, simply add the following line to your Podfile:
 pod 'RMMobileSpec'
 ```
 
-## Author
+pod 'RMAppFramework', :git => 'https://github.com/RMTelephone/RMAppFramework.git'
 
-16422230, liucong@streamax.com
+## Author
+lite@streamax.com
 
 ## License
 

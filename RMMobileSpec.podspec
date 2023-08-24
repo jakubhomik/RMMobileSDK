@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RMMobileSpec'
+  s.name             = 'RMAppFramework'
   s.version          = '1.2.0'
   s.summary          = '锐明移动端SDK'
 
