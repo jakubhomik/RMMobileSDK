@@ -44,6 +44,9 @@
 
 
 - (void)loginDevice {
+    
+    
+    
     NetDeviceInfo* deviceInfo = [[NetDeviceInfo alloc]init];
     deviceInfo.deviceWanIP =  self.deviceIP;
     deviceInfo.deviceMediaPort = [NSNumber numberWithInteger:self.port];
