@@ -1,16 +1,16 @@
 PODS:
-  - RMMobileSpec (1.2.0)
+  - RMAppFramework (1.2.1)
 
 DEPENDENCIES:
-  - RMMobileSpec (from `../`)
+  - RMAppFramework (from `../`)
 
 EXTERNAL SOURCES:
-  RMMobileSpec:
+  RMAppFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RMMobileSpec: 61b0a4fe49786fa0e880b4707a0643105502cfaf
+  RMAppFramework: 08c4c6792f567ff6acaa58e2b65b327413729745
 
-PODFILE CHECKSUM: ac5804f7ca8a38a09fefee0ea02a3804d3dc64a1
+PODFILE CHECKSUM: 989ee41ba30fcd464df0de2f46463b9eb0b6134e
 
 COCOAPODS: 1.12.1

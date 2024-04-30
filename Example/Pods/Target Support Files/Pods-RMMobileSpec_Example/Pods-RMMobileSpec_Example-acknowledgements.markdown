@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## RMMobileSpec
+## RMAppFramework
 
 Copyright (c) 2023 16422230 <liucong@streamax.com>
 

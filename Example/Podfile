@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'RMMobileSpec_Example' do
-  pod 'RMMobileSpec', :path => '../'
+  pod 'RMAppFramework', :path => '../'
 
   target 'RMMobileSpec_Tests' do
     inherit! :search_paths
