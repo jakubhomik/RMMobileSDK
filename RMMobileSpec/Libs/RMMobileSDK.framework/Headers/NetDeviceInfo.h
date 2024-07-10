@@ -40,9 +40,9 @@
 
 
 /*  连接不同服务器时区分协议
-    RMRemoteServerProtocolUnknown       为默认值，非服务器模式下 或 不清楚协议时
-    RMRemoteServerProtocolGT            GT协议  S17服务器
-    RMRemoteServerProtocolCeiba264      Ceiba264更新
+ RMRemoteServerProtocolUnknown       为默认值，非服务器模式下 或 不清楚协议时
+ RMRemoteServerProtocolGT            GT协议  S17服务器
+ RMRemoteServerProtocolCeiba264      Ceiba264更新
  */
 @property (nonatomic, assign) RMRemoteServerProtocol protocol;
 
@@ -123,5 +123,8 @@
 @property (nonatomic, assign) NSInteger timeZexHour;
 @property (nonatomic, assign) NSInteger timeZexMin;
 @property(nonatomic, copy)NSString* reiDeviceName;
+@property (nonatomic, assign) BOOL isHaveProtectedStorage;
+@property (nonatomic, copy) NSString* adminPassword;
+@property (nonatomic, copy) NSString* adminUser;
 
 @end

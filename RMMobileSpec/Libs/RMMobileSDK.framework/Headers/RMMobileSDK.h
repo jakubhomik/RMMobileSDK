@@ -35,6 +35,7 @@ FOUNDATION_EXPORT const unsigned char RMMobileSDKVersionString[];
 #import <RMMobileSDK/RMAudioSession.h>
 #import <RMMobileSDK/FXNetSearchFile.h>
 #import <RMMobileSDK/FXNetDownloadFile.h>
+#import <RMMobileSDK/UserModel.h>
 
 
 

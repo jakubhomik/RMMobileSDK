@@ -45,7 +45,8 @@
 -(ERROR_CODE)loginDevice;
 -(void)loginDeviceBlock:(void (^)(ERROR_CODE errorCode))completion;
 -(ERROR_CODE)logoutDevice;
-
+- (void)setDeviceRecodeDic:(NSDictionary *)recordeDic;
+- (NSDictionary *)getDeviceRecodeDic;
 -(ERROR_CODE)requestInfo:(NETREQUEST_ATTRIBUTE)rquest Return:(DataBlock)callback;
 -(ERROR_CODE)sendDataToDevice:(NSString*)data;
 -(ERROR_CODE)getDataFromDevice:(NSString*)data Return:(DataBlock)callback;
@@ -62,6 +63,17 @@
 -(ERROR_CODE)netSnapshot:(NSInteger)channel savePath:(NSString*)picPath;
 
 -(ERROR_CODE)netSnapAVMshotsavePath:(NSString *)picPath is4K:(NSInteger)is4K;
+
+/// AVM标定 对车模进行设置
+/// - Parameters:
+///   - type: 1,调节车模缩放 2、车模位置  3、旋转 9、取消或保存
+///   - dir: 1.左（逆时针）  2.右（顺时针） 3.前 4.后
+///   - value: 1.加（保存）   0.（返回）    -1.减
+///   - callback: 回调
+- (ERROR_CODE)remoteControlAVMWithType:(NSInteger)type
+                                   dir:(NSInteger)dir
+                                 value:(NSInteger)value
+                              callBack:(DataBlock)callback;
 -(NSString*)getDeviceNameInfo;
 
 /*nsdictionary format
@@ -127,6 +139,7 @@ channelarr: <Nstring*> 频道
 -(ERROR_CODE)importFile:(IMPORTFILE_TYPE)fileType Return:(DataBlock)callback;
 
 - (ERROR_CODE)ctrlFileforCMD2:(NSInteger)fileType Return:(DataBlock)callback;
+- (ERROR_CODE)ctrlDataSecurityFile:(DELETEFILE_TYPE)versionType withEnable:(NSInteger)enable Return:(DataBlock)callback;
 -(ERROR_CODE)acceptanceModeWithcome:(NSInteger)comeinMode Return:(DataBlock)callback;
 -(ERROR_CODE)getImportFileProcess:(IMPORTFILE_TYPE)fileType Return:(ProcessBlock)callback;
 -(ERROR_CODE)backupEvidenceRecordFileSTTime:(NSString*)stTime ENDTime:(NSString*)endTime Return:(DataBlock)callback;
@@ -159,6 +172,9 @@ channelarr: <Nstring*> 频道
 -(ERROR_CODE)getDeviceVersionInfo:(DataBlock)callback;
 -(NSDictionary*)getDeviceVersionInfo;
 -(ERROR_CODE)requestOperationStatus:(DataBlock)block;
+
+// 获取运维宝获取预置标定点
+- (void)getPreSetcalibratePointWithType:(NSInteger)type callback:(DataBlock)callback;
 
 //indexchannel = -1 return all ipc versions
 //normal : indexchannel 0-255
@@ -259,7 +275,7 @@ channelarr: <Nstring*> 频道
 -(ERROR_CODE)controlHWConfigTableInfo:(int)controlType userName:(NSString*)username oldPassword:(NSString*)oldpassword newPassword:(NSString*)newpassword;
 -(ERROR_CODE)upgradeFilebyMain:(UPGRADE_TYPE)versionType IPCCHN:(NSInteger)channel Return:(DataBlock)callback;
 -(ERROR_CODE)remoteControlButton:(NSInteger)buttonType PID:(NSString*)pid;
-
+- (ERROR_CODE)calibrateByAuto:(int)calibrateType Return:(DataBlock)callback;
 //一件锁存录像，已设备当前时间和 当前前后配置时间决定
 -(ERROR_CODE)driveLockRecordByDevChannelbit:(NSInteger)channelbit streamtype:(STREAM_TYPE)streamtype;
 
@@ -288,7 +304,8 @@ channelarr: <Nstring*> 频道
 - (NSDate *)calculateFutureAndPastTimeWithStartDate:(NSDate *)date;
 - (NSString *)calculateFutureAndPastTimeWithDate:(NSDate *)date formateStr:(NSString *)formateStr;
 
-
+- (ERROR_CODE)decryptFrame:(char *)readerData dataLength:(NSInteger)dataLength;
+- (ERROR_CODE)getDataSecurityExtendLenType:(NSInteger)dataType;
 @end
 
 

@@ -45,7 +45,7 @@
 -(BOOL)getGroupReport:(GROUP_REPORT_TYPE)type;
 
 -(void)processDiscoveryData:(NSDictionary*)devicedict;
-
+- (NSString *)changeDesPassword:(NSString *)password;
 @end
 
 @protocol FXManagerDelegate <NSObject>

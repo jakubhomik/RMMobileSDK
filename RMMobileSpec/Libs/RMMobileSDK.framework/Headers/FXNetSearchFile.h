@@ -10,6 +10,9 @@
 #import "FXNetDevice.h"
 #import "FXDefine.h"
 
+/*
+ 1.0 的设备，子存储器只查询、播放、导出镜像码流, 2.0的设备导出时子码流和主码流一起导出
+ */
 @interface FXNetSearchFile : NSObject
 
 @property(nonatomic,strong)FXNetDevice* netDevice;
@@ -26,7 +29,7 @@
  * @param block 回调 此方法回调的内容为原数据
  * @return 错误类型
  */
--(ERROR_CODE)searchCalendarWithYear:(NSInteger)year month:(NSInteger)month streamType:(STREAM_TYPE)streamtype diskType:(DISK_TYPE)disktype block:(DataBlock)block;
+-(ERROR_CODE)fx_searchCalendarWithYear:(NSInteger)year month:(NSInteger)month streamType:(STREAM_TYPE)streamtype diskType:(DISK_TYPE)disktype block:(DataBlock)block;
 
 -(ERROR_CODE)SearchCalendarWithYear:(NSInteger)year Month:(NSInteger)month StreamType:(STREAM_TYPE)streamtype DiskType:(DISK_TYPE)disktype Block:(DataBlock)block;
 -(ERROR_CODE)SearchCalendarAllWithStreamType:(STREAM_TYPE)streamtype diskType:(DISK_TYPE)disktype Block:(DataBlock)block;

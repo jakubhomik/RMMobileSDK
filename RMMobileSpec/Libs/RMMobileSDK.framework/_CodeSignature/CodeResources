@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/FXDefine.h</key>
 		<data>
-		2Ug8so4sROiKrvpohiqwm3xySZU=
+		trIZ7651Jmxx4B51Gnshbw7Hd/k=
 		</data>
 		<key>Headers/FXFileHeaderInfo.h</key>
 		<data>
@@ -22,11 +22,15 @@
 		</data>
 		<key>Headers/FXManager.h</key>
 		<data>
-		6IzkvXPO8Dg+OwK6szERSfUFVbI=
+		lhe/px/ATSc4nnL28zSXH31tenA=
 		</data>
 		<key>Headers/FXNetDevice.h</key>
 		<data>
-		HuPchj8Zuqy9TO//DXNiyx5IZ+k=
+		d+58sSTWS1XeinAzhxehZoKnPus=
+		</data>
+		<key>Headers/FXNetDownloadFile.h</key>
+		<data>
+		yUvcOu64azYSdEP5YoEFGE/h2EA=
 		</data>
 		<key>Headers/FXNetRemotePlayback.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Headers/FXNetSearchFile.h</key>
 		<data>
-		QZmzCqfh05xQaj7etovLIQyKb84=
+		BOU2BlxU8w2e4PnurhILndduWYg=
 		</data>
 		<key>Headers/FXNetServer.h</key>
 		<data>
@@ -58,7 +62,7 @@
 		</data>
 		<key>Headers/NetDeviceInfo.h</key>
 		<data>
-		lFOvQjaCWrlyGuh6FiIANcYGa64=
+		lZFKmtZFQ+O3fTMO1BHVD8B5H8U=
 		</data>
 		<key>Headers/NetServiceInfo.h</key>
 		<data>
@@ -70,7 +74,7 @@
 		</data>
 		<key>Headers/RMMobileSDK.h</key>
 		<data>
-		JujrUTgz0Rspm7/XhP1zG9x3bJg=
+		ZDCL5eCG0PdiyWbMiro6AKtNwzk=
 		</data>
 		<key>Headers/UserModel.h</key>
 		<data>
@@ -78,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		O9qJocxr2y9SnePLBfeA9urOLa0=
+		o6fs1+JIM7aTHBwjEhfjv+KWdR0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		95AoIRVJHx48W91odR9mbd418Us=
+		IGmUGbtm7Gp9bqfc7AKamQrVvdw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -106,11 +110,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2Ug8so4sROiKrvpohiqwm3xySZU=
+			trIZ7651Jmxx4B51Gnshbw7Hd/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			1wtpsC+/CurCmcBLcEkRqAmw+OqHVO4avSUET2r6LGg=
+			d1FQPhspGhRfWI0m1eav3DnqbMZvWF9MiCqmFX236D4=
 			</data>
 		</dict>
 		<key>Headers/FXFileHeaderInfo.h</key>
@@ -139,22 +143,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6IzkvXPO8Dg+OwK6szERSfUFVbI=
+			lhe/px/ATSc4nnL28zSXH31tenA=
 			</data>
 			<key>hash2</key>
 			<data>
-			usQTBEe/u3Os43livsgUnoiGdF/R9qNVRjlT4ZNOoSk=
+			8DmjR10UnNj75Fhxhw6eCgbOYJcyMpwym0zJ77luXGM=
 			</data>
 		</dict>
 		<key>Headers/FXNetDevice.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HuPchj8Zuqy9TO//DXNiyx5IZ+k=
+			d+58sSTWS1XeinAzhxehZoKnPus=
 			</data>
 			<key>hash2</key>
 			<data>
-			PVfKPOLsyPU8f1hlDkdfGMl+NzF038JVL0Bey093wUE=
+			k6VUDoimtX2S/z9UMvvV/FNTr5sj7UIHlDQG/7dF8v0=
+			</data>
+		</dict>
+		<key>Headers/FXNetDownloadFile.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yUvcOu64azYSdEP5YoEFGE/h2EA=
+			</data>
+			<key>hash2</key>
+			<data>
+			D5LQl0qjNQVfuiT8GntOwCo/lbw6AsjBHncalJcPoXI=
 			</data>
 		</dict>
 		<key>Headers/FXNetRemotePlayback.h</key>
@@ -172,11 +187,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QZmzCqfh05xQaj7etovLIQyKb84=
+			BOU2BlxU8w2e4PnurhILndduWYg=
 			</data>
 			<key>hash2</key>
 			<data>
-			E7zItEnRW9Hioxc/SzShQ1plM9Choso3n4wjLALB+CU=
+			vwDgTKJdDAv3Jv9oZ5NuSe6Znlbe0/tyh+NxQpNT5Gc=
 			</data>
 		</dict>
 		<key>Headers/FXNetServer.h</key>
@@ -238,11 +253,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lFOvQjaCWrlyGuh6FiIANcYGa64=
+			lZFKmtZFQ+O3fTMO1BHVD8B5H8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			COE0STi+Kl8/V2Gw44lwALmD4SLuMKk3JdgBkj0l19I=
+			9lwMRZmRqbUZ6cmO/NX3bzmRtTfkfLfjPGOWGfnPNdQ=
 			</data>
 		</dict>
 		<key>Headers/NetServiceInfo.h</key>
@@ -271,11 +286,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JujrUTgz0Rspm7/XhP1zG9x3bJg=
+			ZDCL5eCG0PdiyWbMiro6AKtNwzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			aA2+ZtOt1EuFGdFXZFCoLd/n451CmuQi+N3O7RdeJQo=
+			/wqVsBU4AFwGykANYO2kA7dyrHyKWXd+IvkwoDoclak=
 			</data>
 		</dict>
 		<key>Headers/UserModel.h</key>
@@ -304,11 +319,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			95AoIRVJHx48W91odR9mbd418Us=
+			IGmUGbtm7Gp9bqfc7AKamQrVvdw=
 			</data>
 			<key>hash2</key>
 			<data>
-			65B/uRheryqGq44eDrO44fTkOW5aBe9k24TTFgGzSF8=
+			5+tTzs2rCOr1HsCIF6/CgSc6i9QI1Ws1o41dCyOaAlE=
 			</data>
 		</dict>
 	</dict>

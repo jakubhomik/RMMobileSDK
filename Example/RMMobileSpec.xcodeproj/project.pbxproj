@@ -10,6 +10,7 @@
 		203F3E4F29EFAFCF00DDF243 /* RMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 203F3E4D29EFAFCF00DDF243 /* RMDevice.m */; };
 		20789BBC29EFC5DD0033CD75 /* getgateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 20789BBB29EFC5DC0033CD75 /* getgateway.c */; };
 		207A074B29EFBEA200B8DF59 /* RMWifiTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 207A074929EFBEA200B8DF59 /* RMWifiTool.m */; };
+		208CB6942C3E92DD00651A09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208CB6932C3E92DD00651A09 /* Images.xcassets */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -17,7 +18,6 @@
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RMAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* RMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RMViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -49,6 +49,7 @@
 		20789BBD29EFC6110033CD75 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		207A074929EFBEA200B8DF59 /* RMWifiTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMWifiTool.m; sourceTree = "<group>"; };
 		207A074A29EFBEA200B8DF59 /* RMWifiTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMWifiTool.h; sourceTree = "<group>"; };
+		208CB6932C3E92DD00651A09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3100763856755195B9ACDFF6 /* Pods_RMMobileSpec_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMMobileSpec_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D95A25A11257D9946069FFA /* Pods-RMMobileSpec_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMMobileSpec_Tests.release.xcconfig"; path = "Target Support Files/Pods-RMMobileSpec_Tests/Pods-RMMobileSpec_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RMMobileSpec_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMMobileSpec_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +64,6 @@
 		6003F59D195388D20070C39A /* RMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* RMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* RMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* RMMobileSpec_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMMobileSpec_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 				6003F5A5195388D20070C39A /* RMViewController.h */,
 				6003F5A6195388D20070C39A /* RMViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				208CB6932C3E92DD00651A09 /* Images.xcassets */,
 			);
 			name = "Example for RMMobileSpec";
 			path = RMMobileSpec;
@@ -314,8 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				208CB6942C3E92DD00651A09 /* Images.xcassets in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
