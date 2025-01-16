@@ -1,0 +1,16 @@
+PODS:
+  - RMAppFramework (1.2.1)
+
+DEPENDENCIES:
+  - RMAppFramework (from `../`)
+
+EXTERNAL SOURCES:
+  RMAppFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RMAppFramework: 08c4c6792f567ff6acaa58e2b65b327413729745
+
+PODFILE CHECKSUM: 989ee41ba30fcd464df0de2f46463b9eb0b6134e
+
+COCOAPODS: 1.12.1
