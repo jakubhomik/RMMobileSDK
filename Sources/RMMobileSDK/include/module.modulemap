@@ -1,5 +1,5 @@
 framework module RMMobileSDK {
-  umbrella header "RMMobileSDK.h"
+  umbrella header "Sources/RMMobileSDK/include/RMMobileSDK.h"
   export *
 
   module * { export * }
