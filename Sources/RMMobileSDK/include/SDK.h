@@ -1,8 +1,8 @@
 //
-//  RMMobileSDK.h
+//  SDK.h
 //  RMMobileSDK
 //
-//  Created by 刘聪 on 2023/4/18.
+//  Created by Jakub Homik on 16/01/2025.
 //
 
 #import <Foundation/Foundation.h>
@@ -33,6 +33,3 @@ FOUNDATION_EXPORT const unsigned char RMMobileSDKVersionString[];
 #import <RMMobileSDK/RMAudioSession.h>
 #import <RMMobileSDK/FXNetDownloadFile.h>
 #import <RMMobileSDK/UserModel.h>
-
-
-
