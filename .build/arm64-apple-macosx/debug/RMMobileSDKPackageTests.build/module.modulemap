@@ -1,0 +1,4 @@
+module RMMobileSDKPackageTests {
+    header "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/RMMobileSDKPackageTests-Swift.h"
+    requires objc
+}

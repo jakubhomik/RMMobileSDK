@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/master.swiftdeps"
+  },
+  "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/RMMobileSDKTests.swift": {
+    "dependencies": "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.d",
+    "object": "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swift.o",
+    "swiftmodule": "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swiftdeps"
+  }
+}

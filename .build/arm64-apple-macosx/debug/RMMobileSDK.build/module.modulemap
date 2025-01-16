@@ -1,0 +1,4 @@
+module RMMobileSDK {
+    umbrella "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/Public"
+    export *
+}

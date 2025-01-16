@@ -1,0 +1,426 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.xctest/Contents/MacOS/RMMobileSDKPackageTests",
+      "packagePath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK",
+      "productName" : "RMMobileSDKPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources",
+      "importPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RMMobileSDKPackageTests",
+      "moduleOutputPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDK.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/Public",
+        "-module-cache-path",
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/RMMobileSDKPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "rmmobilesdk"
+      ],
+      "outputFileMapPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.RMMobileSDKTests-arm64-apple-macosx14.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources",
+      "importPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/RMMobileSDKTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RMMobileSDKTests",
+      "moduleOutputPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKTests.swiftmodule",
+      "objects" : [
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDK.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/Public",
+        "-module-cache-path",
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "rmmobilesdk"
+      ],
+      "outputFileMapPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/RMMobileSDKTests.swift"
+      ],
+      "tempsPath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "RMMobileSDKPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "RMMobileSDKPackageTests",
+      "-package-name",
+      "rmmobilesdk",
+      "-incremental",
+      "-c",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDK.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/Public",
+      "-module-cache-path",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/RMMobileSDKPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "rmmobilesdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "RMMobileSDKTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "RMMobileSDKTests",
+      "-package-name",
+      "rmmobilesdk",
+      "-incremental",
+      "-c",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/RMMobileSDKTests.swift",
+      "-I",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDK.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/Public",
+      "-module-cache-path",
+      "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "rmmobilesdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "RMMobileSDK" : [
+
+    ],
+    "RMMobileSDKPackageTests" : [
+      "RMMobileSDKTests",
+      "RMMobileSDK"
+    ],
+    "RMMobileSDKTests" : [
+      "RMMobileSDK"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "writeCommands" : {
+    "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources"
+    },
+    "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/RMMobileSDKTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources"
+    },
+    "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

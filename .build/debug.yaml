@@ -1,0 +1,99 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "RMMobileSDK-arm64-apple-macosx14.0-debug.module": ["<RMMobileSDK-arm64-apple-macosx14.0-debug.module>"]
+  "RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.module": ["<RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.module>"]
+  "RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.test": ["<RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.test>"]
+  "RMMobileSDKTests-arm64-apple-macosx14.0-debug.module": ["<RMMobileSDKTests-arm64-apple-macosx14.0-debug.module>"]
+  "main": ["<RMMobileSDK-arm64-apple-macosx14.0-debug.module>"]
+  "test": ["<RMMobileSDK-arm64-apple-macosx14.0-debug.module>","<RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.test>","<RMMobileSDKTests-arm64-apple-macosx14.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift"]
+    outputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources"]
+    description: "Write auxiliary file /Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources"
+
+  "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift":
+    tool: test-entry-point-tool
+    inputs: []
+    outputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift"]
+
+  "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/runner.swift.o","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swift.o"]
+    outputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.product/Objects.LinkFileList"
+
+  "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/RMMobileSDKTests.swift"]
+    outputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources"]
+    description: "Write auxiliary file /Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources"
+
+  "/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<RMMobileSDK-arm64-apple-macosx14.0-debug.module>":
+    tool: phony
+    inputs: []
+    outputs: ["<RMMobileSDK-arm64-apple-macosx14.0-debug.module>"]
+
+  "<RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/runner.swift.o","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKPackageTests.swiftmodule"]
+    outputs: ["<RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.module>"]
+
+  "<RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.test>":
+    tool: phony
+    inputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.xctest/Contents/MacOS/RMMobileSDKPackageTests"]
+    outputs: ["<RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.test>"]
+
+  "<RMMobileSDKTests-arm64-apple-macosx14.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swift.o","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKTests.swiftmodule"]
+    outputs: ["<RMMobileSDKTests-arm64-apple-macosx14.0-debug.module>"]
+
+  "C.RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.module":
+    tool: shell
+    inputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.derived/runner.swift","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKTests.swiftmodule","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources"]
+    outputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/runner.swift.o","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKPackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'RMMobileSDKPackageTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","RMMobileSDKPackageTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKPackageTests.swiftmodule","-output-file-map","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/sources","-I","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.13","-enable-batch-mode","-index-store-path","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-Xcc","-fmodule-map-file=/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDK.build/module.modulemap","-Xcc","-I","-Xcc","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/Public","-module-cache-path","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/RMMobileSDKPackageTests-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","rmmobilesdk"]
+
+  "C.RMMobileSDKPackageTests-arm64-apple-macosx14.0-debug.test":
+    tool: shell
+    inputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.build/runner.swift.o","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swift.o","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.product/Objects.LinkFileList"]
+    outputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.xctest/Contents/MacOS/RMMobileSDKPackageTests"]
+    description: "Linking /Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.xctest/Contents/MacOS/RMMobileSDKPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug","-o","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.xctest/Contents/MacOS/RMMobileSDKPackageTests","-module-name","RMMobileSDKPackageTests","-Xlinker","-no_warn_duplicate_libraries","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKPackageTests.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKPackageTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKTests.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.RMMobileSDKTests-arm64-apple-macosx14.0-debug.module":
+    tool: shell
+    inputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/RMMobileSDKTests.swift","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources"]
+    outputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/RMMobileSDKTests.swift.o","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKTests.swiftmodule"]
+    description: "Compiling Swift Module 'RMMobileSDKTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","RMMobileSDKTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules/RMMobileSDKTests.swiftmodule","-output-file-map","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDKTests.build/sources","-I","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-Xcc","-fmodule-map-file=/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/RMMobileSDK.build/module.modulemap","-Xcc","-I","-Xcc","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/Public","-module-cache-path","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-swift-version","6","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","rmmobilesdk"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Sources/RMMobileSDK/","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Tests/RMMobileSDKTests/","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Package.swift","/Users/jakub.homik/Desktop/Forward Thinking Systems/RMMobileSDK/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
