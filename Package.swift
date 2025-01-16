@@ -15,8 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "RMMobileSDK",
-            path: "Sources/RMMobileSDK",
-            publicHeadersPath: "Public"),
+            path: "Sources/RMMobileSDK"),
         .testTarget(
             name: "RMMobileSDKTests",
             dependencies: ["RMMobileSDK"]
