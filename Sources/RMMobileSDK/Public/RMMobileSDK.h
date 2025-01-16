@@ -15,24 +15,24 @@ FOUNDATION_EXPORT const unsigned char RMMobileSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <RMMobileSDK/PublicHeader.h>
 
-#import <RMMobileSDK/Public/FXFileHeaderInfo.h>
-#import <RMMobileSDK/Public/FXNetVideoPlayback.h>
-#import <RMMobileSDK/Public/FXNetDevice.h>
-#import <RMMobileSDK/Public/FXNetSearchFile.h>
-#import <RMMobileSDK/Public/FXRecordFilelistDateInfo.h>
-#import <RMMobileSDK/Public/FXRecordDateInfo.h>
-#import <RMMobileSDK/Public/FXAudioSampling.h>
-#import <RMMobileSDK/Public/FXDefine.h>
-#import <RMMobileSDK/Public/FXNetServer.h>
-#import <RMMobileSDK/Public/NetServiceInfo.h>
-#import <RMMobileSDK/Public/NetDeviceInfo.h>
-#import <RMMobileSDK/Public/FXNetStream.h>
-#import <RMMobileSDK/Public/FXNetRemotePlayback.h>
-#import <RMMobileSDK/Public/FXManager.h>
-#import <RMMobileSDK/Public/FXLocalPlayback.h>
-#import <RMMobileSDK/Public/RMAudioSession.h>
-#import <RMMobileSDK/Public/FXNetDownloadFile.h>
-#import <RMMobileSDK/Public/UserModel.h>
+#import <FXFileHeaderInfo.h>
+#import <FXNetVideoPlayback.h>
+#import <FXNetDevice.h>
+#import <FXNetSearchFile.h>
+#import <FXRecordFilelistDateInfo.h>
+#import <FXRecordDateInfo.h>
+#import <FXAudioSampling.h>
+#import <FXDefine.h>
+#import <FXNetServer.h>
+#import <NetServiceInfo.h>
+#import <NetDeviceInfo.h>
+#import <FXNetStream.h>
+#import <FXNetRemotePlayback.h>
+#import <FXManager.h>
+#import <FXLocalPlayback.h>
+#import <RMAudioSession.h>
+#import <FXNetDownloadFile.h>
+#import <UserModel.h>
 
 
 
