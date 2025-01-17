@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "RMMobileSDK",
-                    url: "https://github.com/jakubhomik/RMMobileSDK/blob/SwiftPackageManager-implementation/Sources/RMMobileSDK.xcframework.zip",
-                    checksum: "349e6247ea805c8cc1d1b04753445ae184ec22b5a749828264156c576e4cc248"
+                    url: "https://github.com/jakubhomik/RMMobileSDK/tree/SwiftPackageManager-implementation/Sources/RMMobileSDK/RMMobileSDK.zip",
+                    checksum: "a71e63351162971363d089401d29de54af8dc9e3a0170d19efb3f7df3994258d"
                 ),
         .testTarget(
             name: "RMMobileSDKTests",
